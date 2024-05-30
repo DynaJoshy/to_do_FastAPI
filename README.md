@@ -16,3 +16,6 @@ Follow these steps to set up the project on your local machine.
    ```bash
    git clone https://github.com/username/fastapi-todo-app.git
    cd fastapi-todo-app
+### Run the application
+```bash
+uvicorn main:app --reload
