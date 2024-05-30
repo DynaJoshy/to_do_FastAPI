@@ -21,10 +21,10 @@ Follow these steps to set up the project on your local machine.
 uvicorn main:app --reload
 ### API Endpoints
 1. **Get all to-do items**:
-   ``bash
+   ```bash
    GET /todos/
 2. **Create a new to_do item**:
-   ``bash
+   ```bash
    POST /todos/
 3. 
 
