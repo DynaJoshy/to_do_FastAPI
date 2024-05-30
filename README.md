@@ -19,3 +19,4 @@ Follow these steps to set up the project on your local machine.
 ### Run the application
 ```bash
 uvicorn main:app --reload
+### API Endpoints
