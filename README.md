@@ -26,5 +26,11 @@ uvicorn main:app --reload
 2. **Create a new to_do item**:
    ```bash
    POST /todos/
-3. 
+3. **Update a to_do item**:
+   ```bash
+   PUT /todos/{id}
+4.**Delete a to-do item**:
+   ```bash
+   DELETE /todos/{id}
+
 
