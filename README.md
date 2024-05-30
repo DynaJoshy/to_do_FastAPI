@@ -29,7 +29,7 @@ uvicorn main:app --reload
 3. **Update a to_do item**:
    ```bash
    PUT /todos/{id}
-4.**Delete a to-do item**:
+4. **Delete a to-do item**:
    ```bash
    DELETE /todos/{id}
 
