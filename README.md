@@ -17,6 +17,14 @@ Follow these steps to set up the project on your local machine.
    git clone https://github.com/username/fastapi-todo-app.git
    cd fastapi-todo-app
 ### Run the application
-```bash
+``bash
 uvicorn main:app --reload
 ### API Endpoints
+1. **Get all to-do items**:
+   ``bash
+   GET /todos/
+2. **Create a new to_do item**:
+   ``bash
+   POST /todos/
+3. 
+
